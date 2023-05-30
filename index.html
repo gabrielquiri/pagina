@@ -193,15 +193,15 @@
                                                     Adicionar ao carrinho
                                                     <i class="bi bi-cart3"></i>
                                                 </button>
-                                            <div class="contar">
-                                                <button class="max fw-bold">
-                                                    +
-                                                </button>
-                                                    <input type="number" min="1" max="99" class="contador">
-                                                <button class="min fw-bold">
-                                                    -
-                                                </button>
-                                            </div>
+                                                <div class="contar">
+                                                    <button onclick="aumentar()" id="plus" class="max fw-bold">
+                                                        +
+                                                    </button>
+                                                    <span id="contador" class="contador fw-bold">1</span>
+                                                    <button onclick="diminuir()" id="minimum" class="min fw-bold">
+                                                        -
+                                                    </button>
+                                                </div>
                                             <div class="modal" id="exemplo-modal">
                                                 <div class="modal-dialog">
                                                     <div class="modal-content">
@@ -233,15 +233,15 @@
                                                 Adicionar ao carrinho
                                                 <i class="bi bi-cart3"></i>
                                             </button>
-                                        <div class="contar">
-                                            <button class="max fw-bold">
-                                                +
-                                            </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
-                                                -
-                                            </button>
-                                        </div>
+                                            <div class="contar">
+                                                <button onclick="aumentar2()" class="max fw-bold">
+                                                    +
+                                                </button>
+                                                <span id="contador2" class="contador fw-bold">1</span>
+                                                <button onclick="diminuir2()" id="minimum" class="min fw-bold">
+                                                    -
+                                                </button>
+                                            </div>
                                     </div>
                                     <div class="col-md-3">
                                         <img src="img/caneta11.png" class="w-100" alt="">
@@ -254,15 +254,15 @@
                                                     Adicionar ao carrinho
                                                     <i class="bi bi-cart3"></i>
                                             </button>
-                                        <div class="contar">
-                                            <button class="max fw-bold">
-                                                +
-                                            </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
-                                                -
-                                            </button>
-                                        </div>
+                                            <div class="contar">
+                                                <button onclick="aumentar3()" class="max fw-bold">
+                                                    +
+                                                </button>
+                                                <span id="contador3" class="contador fw-bold">1</span>
+                                                <button onclick="diminuir3()" id="minimum" class="min fw-bold">
+                                                    -
+                                                </button>
+                                            </div>
                                     </div>
                                     <div class="col-md-3">
                                         <img src="img/caneta12.png" class="w-100" alt="">
@@ -279,11 +279,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar4()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador4" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir4()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -300,11 +300,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar5()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador5" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir5()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -324,11 +324,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar6()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador6" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir6()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -345,11 +345,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar7()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador7" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir7()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -369,11 +369,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar8()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador8" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir8()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -394,11 +394,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                             <div class="contar">
-                                                <button class="max fw-bold">
+                                                <button onclick="aumentar9()" id="plus" class="max fw-bold">
                                                     +
                                                 </button>
-                                                    <input type="number" min="1" max="99" class="contador">
-                                                <button class="min fw-bold">
+                                                <span id="contador9" class="contador fw-bold">1</span>
+                                                <button onclick="diminuir9()" id="minimum" class="min fw-bold">
                                                     -
                                                 </button>
                                             </div>
@@ -431,11 +431,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                             <div class="contar">
-                                                <button class="max fw-bold">
+                                                <button onclick="aumentar10()" id="plus" class="max fw-bold">
                                                     +
                                                 </button>
-                                                    <input type="number" min="1" max="99" class="contador">
-                                                <button class="min fw-bold">
+                                                <span id="contador10" class="contador fw-bold">1</span>
+                                                <button onclick="diminuir10()" id="minimum" class="min fw-bold">
                                                     -
                                                 </button>
                                             </div>
@@ -452,11 +452,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                             <div class="contar">
-                                                <button class="max fw-bold">
+                                                <button onclick="aumentar11()" id="plus" class="max fw-bold">
                                                     +
                                                 </button>
-                                                    <input type="number" min="1" max="99" class="contador">
-                                                <button class="min fw-bold">
+                                                <span id="contador11" class="contador fw-bold">1</span>
+                                                <button onclick="diminuir11()" id="minimum" class="min fw-bold">
                                                     -
                                                 </button>
                                             </div>
@@ -473,11 +473,11 @@
                                             <i class="bi bi-cart3"></i>
                                         </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar12()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador12" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir12()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -494,11 +494,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                             <div class="contar">
-                                                <button class="max fw-bold">
+                                                <button onclick="aumentar13()" id="plus" class="max fw-bold">
                                                     +
                                                 </button>
-                                                    <input type="number" min="1" max="99" class="contador">
-                                                <button class="min fw-bold">
+                                                <span id="contador13" class="contador fw-bold">1</span>
+                                                <button onclick="diminuir13()" id="minimum" class="min fw-bold">
                                                     -
                                                 </button>
                                             </div>
@@ -515,11 +515,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                             <div class="contar">
-                                                <button class="max fw-bold">
+                                                <button onclick="aumentar14()" id="plus" class="max fw-bold">
                                                     +
                                                 </button>
-                                                    <input type="number" min="1" max="99" class="contador">
-                                                <button class="min fw-bold">
+                                                <span id="contador14" class="contador fw-bold">1</span>
+                                                <button onclick="diminuir14()" id="minimum" class="min fw-bold">
                                                     -
                                                 </button>
                                             </div>
@@ -536,11 +536,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                             <div class="contar">
-                                                <button class="max fw-bold">
+                                                <button onclick="aumentar15()" id="plus" class="max fw-bold">
                                                     +
                                                 </button>
-                                                    <input type="number" min="1" max="99" class="contador">
-                                                <button class="min fw-bold">
+                                                <span id="contador15" class="contador fw-bold">1</span>
+                                                <button onclick="diminuir15()" id="minimum" class="min fw-bold">
                                                     -
                                                 </button>
                                             </div>
@@ -557,11 +557,11 @@
                                                 <i class="bi bi-cart3"></i>
                                             </button>
                                             <div class="contar">
-                                                <button class="max fw-bold">
+                                                <button onclick="aumentar16()" id="plus" class="max fw-bold">
                                                     +
                                                 </button>
-                                                    <input type="number" min="1" max="99" class="contador">
-                                                <button class="min fw-bold">
+                                                <span id="contador16" class="contador fw-bold">1</span>
+                                                <button onclick="diminuir16()" id="minimum" class="min fw-bold">
                                                     -
                                                 </button>
                                             </div>
@@ -582,11 +582,11 @@
                                             <i class="bi bi-cart3"></i>
                                         </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar17()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador17" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir17()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -619,11 +619,11 @@
                                             <i class="bi bi-cart3"></i>
                                         </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar18()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador18" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir18()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -644,11 +644,11 @@
                                             <i class="bi bi-cart3"></i>
                                         </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar19()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador19" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir19()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -681,11 +681,11 @@
                                             <i class="bi bi-cart3"></i>
                                         </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar20()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador20" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir20()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -702,11 +702,11 @@
                                             <i class="bi bi-cart3"></i>
                                         </button>
                                         <div class="contar">
-                                            <button class="max fw-bold">
+                                            <button onclick="aumentar21()" id="plus" class="max fw-bold">
                                                 +
                                             </button>
-                                                <input type="number" min="1" max="99" class="contador">
-                                            <button class="min fw-bold">
+                                            <span id="contador21" class="contador fw-bold">1</span>
+                                            <button onclick="diminuir21()" id="minimum" class="min fw-bold">
                                                 -
                                             </button>
                                         </div>
@@ -890,6 +890,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
     <script src="lib/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="jQuery-Mask-Plugin-master/dist/jquery.mask.min.js"></script>
