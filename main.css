@@ -312,6 +312,14 @@ p{
     section#eventos{
         margin-bottom: 200px;
     }
+
+    section#sobre .container{
+        margin-bottom: 140px;
+    }
+
+    section#sobre{
+        margin-bottom: 100px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
