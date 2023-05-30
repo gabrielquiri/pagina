@@ -165,11 +165,15 @@ form .btn{
     padding: 10px 15px;
 }
 
-
 .form-check-label{
     font-weight: bold;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.6);
+}
+
+p{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 767px) {
