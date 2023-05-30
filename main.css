@@ -223,8 +223,9 @@ form .btn{
         margin-top: 0px;
     }
 
-    form button {
+    form .btn {
         margin-bottom: 50px;
+        margin-top: 15px;
     }
 
     h6.section-title,
