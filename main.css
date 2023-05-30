@@ -128,7 +128,7 @@ del{
 }
 
 .modal-content .modal-body button:hover{
-    background-color: #198754;
+    background-color: rgb(12, 122, 12);
     border: none;
 }
 
@@ -137,14 +137,19 @@ del{
 }
 
 .modal .btn{
-    --bs-btn-padding-x: 0rem;
+    --bs-btn-padding-x: 1rem;
     --bs-btn-padding-y: 0rem;    
-    margin-bottom: 0.999rem!important;
+    margin-bottom: 0.5rem!important;
+    border-radius: 1px;
 }
 
 .modal .btn:hover{
-    padding: 5px!important;
-    font-size: 0.751rem!important;
+    padding: 0.088rem!important;
+    font-size: 1rem!important;
+}
+
+.modal h5 {
+    color: green;
 }
 
 .btn {
@@ -154,6 +159,17 @@ del{
 
 strong {
     display: block;
+}
+
+form .btn{
+    padding: 10px 15px;
+}
+
+
+.form-check-label{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 767px) {
