@@ -176,6 +176,10 @@ p{
     color: rgba(0, 0, 0, 0.7);
 }
 
+.sobre{
+    margin-left: 5px;
+}
+
 @media (max-width: 767px) {
     .modal {
         --bs-modal-margin: 1rem;
@@ -223,6 +227,7 @@ p{
     h3.section-title{
         font-size: 25px;
         margin-top:20px;
+        margin-left: 5px;
     }
 
     h4.text-colored{
