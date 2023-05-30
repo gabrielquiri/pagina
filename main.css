@@ -26,6 +26,10 @@ h2{
     color: rgb(70, 70, 255);
 }
 
+.text-colored2{
+    color: black;
+}
+
 .section-title{
     font-family: 'Kanit', sans-serif;
     font-style: oblique;
