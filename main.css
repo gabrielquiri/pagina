@@ -132,7 +132,6 @@ del{
 }
 
 .modal-content .modal-body button:hover{
-    background-color: rgb(12, 122, 12);
     border: none;
 }
 
@@ -153,7 +152,7 @@ del{
 }
 
 .modal h5 {
-    color: green;
+    color: rgb(12, 122, 12);
 }
 
 .btn {
@@ -308,6 +307,10 @@ p{
         margin-right: 0.2rem!important;
         margin-left: .2rem!important;
         margin: 0.2rem!important;
+    }
+
+    section#eventos{
+        margin-bottom: 200px;
     }
 }
 
