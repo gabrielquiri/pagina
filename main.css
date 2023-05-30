@@ -183,6 +183,14 @@ p{
     margin-left: 5px;
 }
 
+section#eventos{
+    margin-bottom: 200px;
+}
+
+section#material {
+    margin-bottom: 300px;
+}
+
 @media (max-width: 767px) {
     .modal {
         --bs-modal-margin: 1rem;
